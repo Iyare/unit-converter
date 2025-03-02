@@ -75,7 +75,7 @@ function renderResults(metrics) {
     volumeResults.textContent = `${inputedValue} liter = ${metrics.gallonValue} gallons | ${inputedValue} gallon = ${metrics.litersValue} liters`;
     weightResults.textContent = `${inputedValue} kilo = ${metrics.poundValue} pounds | ${inputedValue} pound = ${metrics.kilogramValue} kilos`;
   } else {
-    lengthResults.textContent = `${inputedValue} meters = ${metrics.feetValue} feet | ${inputedValue} feets = ${metrics.meterValue} meters`;
+    lengthResults.textContent = `${inputedValue} meters = ${metrics.feetValue} feet | ${inputedValue} feet = ${metrics.meterValue} meters`;
     volumeResults.textContent = `${inputedValue} liters = ${metrics.gallonValue} gallons | ${inputedValue} gallons = ${metrics.litersValue} liters`;
     weightResults.textContent = `${inputedValue} kilos = ${metrics.poundValue} pounds | ${inputedValue} pounds = ${metrics.kilogramValue} kilos`;
   }
