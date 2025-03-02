@@ -70,7 +70,7 @@ function convertMetrics(input) {
 }
 
 function renderResults(metrics) {
-  if (inputedValue < 2) {
+  if (inputedValue === "1" || inputedValue === 1){
     lengthResults.textContent = `${inputedValue} meter = ${metrics.feetValue} feet | ${inputedValue} feet = ${metrics.meterValue} meters`;
     volumeResults.textContent = `${inputedValue} liter = ${metrics.gallonValue} gallons | ${inputedValue} gallon = ${metrics.litersValue} liters`;
     weightResults.textContent = `${inputedValue} kilo = ${metrics.poundValue} pounds | ${inputedValue} pound = ${metrics.kilogramValue} kilos`;
